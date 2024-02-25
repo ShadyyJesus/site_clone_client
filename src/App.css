@@ -1,0 +1,84 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a:visited {
+  color: #363636;
+}
+
+.container{
+  margin: 0px 40px;
+}
+
+.App-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: whitesmoke;
+  z-index: 100;
+}
+
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.logo{
+  font-family: 'Impact',Arial,sans-serif;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.list-item{
+  font-family: 'Impact',Arial,sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #363636;
+}
+
+.list-link{
+  color: #363636;
+  text-decoration: none;
+}
+
+.Main-Image{
+  position: relative;
+
+}
+
+.Main-Image::before {
+  content: '';
+  position: absolute; 
+  width: 100%;
+  height: 100%; 
+}
+
+.Product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
